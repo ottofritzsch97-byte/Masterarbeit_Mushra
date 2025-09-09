@@ -1,0 +1,38 @@
+# test config mushra page, waveform, 11 conditions, no reference
+
+
+testname: MUSHRA without reference
+testId: mushra_no_reference
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+
+pages:
+
+    - type: mushra
+      id: trial1
+      name: Mono Trial without reference
+      content: test description
+      showWaveform: true
+      stimuli:
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
+          C4: configs/resources/audio/mono_c1.wav
+          C5: configs/resources/audio/mono_c2.wav
+          C6: configs/resources/audio/mono_c3.wav
+          C7: configs/resources/audio/mono_c1.wav
+          C8: configs/resources/audio/mono_c2.wav
+          C9: configs/resources/audio/mono_c3.wav
+          C10: configs/resources/audio/mono_c1.wav
+          C11: configs/resources/audio/mono_c2.wav
+
+
+    - type: finish
+      name: Thank you
+      content: Thank you for attending
+      popupContent: Your results were sent. Goodbye and have a nice day
+      showResults: true
+      writeResults: true
