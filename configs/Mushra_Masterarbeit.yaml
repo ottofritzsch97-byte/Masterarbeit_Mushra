@@ -4,7 +4,7 @@
 testname: MUSHRA without looping
 testId: mushra_noloop
 bufferSize: 2048
-stopOnErrors: true
+stopOnErrors: false
 showButtonPreviousPage: true
 remoteService: service/write.php
 
