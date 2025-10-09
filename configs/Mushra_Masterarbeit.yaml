@@ -31,7 +31,7 @@ pages:
       name: Akkordwechsel
       content: Bitte hören Sie sich alle Versionen sorgfältig an und bewerten Sie jede auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch).
       showWaveform: true
-      enableLooping: true
+      enableLooping: false
       reference: configs/resources/audio/Akkordwechsel - 0004 - Audio - JCM 900.wav
       createAnchor35: true
       createAnchor70: false
@@ -46,7 +46,7 @@ pages:
       name: Akkordwechsel
       content: Bitte hören Sie sich alle Versionen sorgfältig an und bewerten Sie jede auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch).
       showWaveform: true
-      enableLooping: true
+      enableLooping: false
       reference: configs/resources/audio/Arpeggio - 0004 - Audio - JCM 900.wav
       createAnchor35: true
       createAnchor70: false
