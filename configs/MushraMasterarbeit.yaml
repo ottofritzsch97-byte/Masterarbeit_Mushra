@@ -22,8 +22,8 @@ pages:
       randomize: true
       showConditionNames: false
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
+          C1: Stereo - 0002 - Audio - Akkordwechsel - 0005 - Audio - JCM 900 ToneX.wav
+          C2: Stereo - 0003 - Audio - Akkordwechsel - 0007 - Audio - Revv.wav
           
 
     - type: finish
