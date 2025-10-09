@@ -10,20 +10,50 @@ remoteService: service/write.php
 
 pages:
 
+    - type: generic
+      id: first_page
+      name: Welcome
+      content: Willkommen zum MUSHRA-Test! Bitte nutzen Sie gute Kopfhörer in ruhiger Umgebung und stellen Sie eine angenehme Lautstärke ein. Sie können jede Probe beliebig oft anhören.
+
+    - type: generic
+      id: first_page
+      name: Welcome
+      content: Hören Sie zuerst die Referenz und vergleichen Sie dann alle anderen Versionen auf Ähnlichkeit zur Referenz. Bewerten Sie jede Version auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch).
+
+    - type: generic
+      id: first_page
+      name: Welcome
+      content: Wenn Sie alle Bewertungen vergeben haben, klicken Sie auf „Absenden“, um den Test zu beenden. Vielen Dank für Ihre Teilnahme!
+
     - type: mushra
       id: trial1
       name: Akkordwechsel
       content: Bitte hören Sie sich alle Versionen sorgfältig an und bewerten Sie jede auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch).
       showWaveform: true
       enableLooping: true
-      reference: configs/resources/audio/Stereo - 0001 - Audio - Akkordwechsel - 0004 - Audio - JCM 900.wav
+      reference: configs/resources/audio/Akkordwechsel - 0004 - Audio - JCM 900.wav
       createAnchor35: true
       createAnchor70: false
       randomize: true
       showConditionNames: false
       stimuli:
-          C1: configs/resources/audio/Stereo - 0002 - Audio - Akkordwechsel - 0005 - Audio - JCM 900 ToneX.wav
-          C2: configs/resources/audio/Stereo - 0003 - Audio - Akkordwechsel - 0007 - Audio - Revv.wav
+          C1: configs/resources/audio/Akkordwechsel - 0005 - Audio - JCM 900 ToneX.wav
+          C2: configs/resources/audio/Akkordwechsel - 0007 - Audio - Revv.wav
+
+    - type: mushra
+      id: trial1
+      name: Akkordwechsel
+      content: Bitte hören Sie sich alle Versionen sorgfältig an und bewerten Sie jede auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch).
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/Arpeggio - 0004 - Audio - JCM 900.wav
+      createAnchor35: true
+      createAnchor70: false
+      randomize: true
+      showConditionNames: false
+      stimuli:
+          C1: configs/resources/audio/Arpeggio - 0005 - Audio - JCM 900 ToneX.wav
+          C2: configs/resources/audio/Arpeggio - 0007 - Audio - Revv.wav
           
 
     - type: finish
