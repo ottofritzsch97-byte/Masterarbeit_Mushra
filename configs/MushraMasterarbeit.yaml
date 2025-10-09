@@ -16,7 +16,7 @@ pages:
       content: Bitte hören Sie sich alle Versionen sorgfältig an und bewerten Sie jede auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch).
       showWaveform: true
       enableLooping: true
-      reference: configs/resources/audio/mono_ref.wav
+      reference: configs/resources/audio/Stereo - 0001 - Audio - Akkordwechsel - 0004 - Audio - JCM 900.wav
       createAnchor35: true
       createAnchor70: false
       randomize: true
