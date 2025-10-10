@@ -6,7 +6,7 @@ testId: mushra_noloop
 bufferSize: 2048
 stopOnErrors: false
 showButtonPreviousPage: true
-remoteService: https://217.154.167.150/save_results.php
+remoteService: https://mushra-masterarbeit-ki-amps.de/save_results.php
 
 
 pages:
