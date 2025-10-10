@@ -6,7 +6,7 @@ testId: mushra_noloop
 bufferSize: 2048
 stopOnErrors: false
 showButtonPreviousPage: true
-remoteService: service/write.php
+remoteService: "http://217.154.167.150/save_results.php"
 
 
 pages:
