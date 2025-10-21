@@ -13,17 +13,17 @@ pages:
 
     - type: generic
       id: first_page
-      name: Welcome
-      content: Willkommen zum MUSHRA-Test! Es geht darum, die Signale unterschiedlicher Gitarrenverstärker auf Ähnlichkeit zu vergleichen. Bitte nutzen Sie gute Kopfhörer in ruhiger Umgebung und stellen Sie eine angenehme Lautstärke ein. Sie können jede Probe beliebig oft anhören.
+      name: Willkommen
+      content: Willkommen zum MUSHRA-Test! Ziel ist es, die Signale unterschiedlicher Gitarrenverstärker auf Ähnlichkeit zu vergleichen. Bitte nutzen Sie gute Kopfhörer in ruhiger Umgebung und stellen Sie eine angenehme Lautstärke ein. Sie können jede Probe beliebig oft anhören.
 
     - type: generic
       id: first_page
-      name: Welcome
+      name: Einführung
       content: Hören Sie zuerst die Referenz und vergleichen Sie dann alle anderen Versionen auf Ähnlichkeit zur Referenz. Bewerten Sie jede Version auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch). Die Signale sind alle Mono-Audio, weshalb sie nur einseitig wiedergegeben werden.
 
     - type: generic
       id: first_page
-      name: Welcome
+      name: Einführung
       content: Wenn Sie alle Bewertungen vergeben haben, klicken Sie auf „Absenden“, um den Test zu beenden. Vielen Dank für Ihre Teilnahme!
 
     - type: mushra
@@ -38,12 +38,12 @@ pages:
       randomize: true
       showConditionNames: false
       stimuli:
-          C1: configs/resources/audio/Akkordwechsel - 0005 - Audio - JCM 900 ToneX.wav
-          C2: configs/resources/audio/Akkordwechsel - 0007 - Audio - Revv.wav
+          ToneX: configs/resources/audio/Akkordwechsel - 0005 - Audio - JCM 900 ToneX.wav
+          Revv-Amp: configs/resources/audio/Akkordwechsel - 0007 - Audio - Revv.wav
 
     - type: mushra
       id: trial1
-      name: Akkordwechsel
+      name: Arpeggio
       content: Bitte hören Sie sich alle Versionen sorgfältig an und bewerten Sie jede auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch).
       showWaveform: true
       enableLooping: false
@@ -53,13 +53,59 @@ pages:
       randomize: true
       showConditionNames: false
       stimuli:
-          C1: configs/resources/audio/Arpeggio - 0005 - Audio - JCM 900 ToneX.wav
-          C2: configs/resources/audio/Arpeggio - 0007 - Audio - Revv.wav
+          ToneX: configs/resources/audio/Arpeggio - 0005 - Audio - JCM 900 ToneX.wav
+          Revv-Amp: configs/resources/audio/Arpeggio - 0007 - Audio - Revv.wav
+
+    - type: mushra
+      id: trial1
+      name: Solo
+      content: Bitte hören Sie sich alle Versionen sorgfältig an und bewerten Sie jede auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch).
+      showWaveform: true
+      enableLooping: false
+      reference: configs/resources/audio/Solo - 0004 - Audio - JCM 900.wav
+      createAnchor35: true
+      createAnchor70: false
+      randomize: true
+      showConditionNames: false
+      stimuli:
+          ToneX: configs/resources/audio/Solo - 0005 - Audio - JCM 900 ToneX.wav
+          Revv-Amp: configs/resources/audio/Solo - 0007 - Audio - Revv.wav
+
+    - type: mushra
+      id: trial1
+      name: Ausgehaltener Akkord
+      content: Bitte hören Sie sich alle Versionen sorgfältig an und bewerten Sie jede auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch).
+      showWaveform: true
+      enableLooping: false
+      reference: configs/resources/audio/Ausgehaltener Akkord - 0004 - Audio - JCM 900.wav
+      createAnchor35: true
+      createAnchor70: false
+      randomize: true
+      showConditionNames: false
+      stimuli:
+          ToneX: configs/resources/audio/Ausgehaltener Akkord - 0005 - Audio - JCM 900 ToneX.wav
+          Revv-Amp: configs/resources/audio/Ausgehaltener Akkord - 0007 - Audio - Revv.wav
+
+    - type: mushra
+      id: trial1
+      name: Riff
+      content: Bitte hören Sie sich alle Versionen sorgfältig an und bewerten Sie jede auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch).
+      showWaveform: true
+      enableLooping: false
+      reference: configs/resources/audio/Riff - 0004 - Audio - JCM 900.wav
+      createAnchor35: true
+      createAnchor70: false
+      randomize: true
+      showConditionNames: false
+      stimuli:
+          ToneX: configs/resources/audio/Riff - 0005 - Audio - JCM 900 ToneX.wav
+          Revv-Amp: configs/resources/audio/Riff - 0007 - Audio - Revv.wav
+          
 
 
     - type: finish
       name: Thank you
       content: Thank you for attending
       popupContent: Your results were sent. Goodbye and have a nice day
-      showResults: false
+      showResults: true
       writeResults: true
