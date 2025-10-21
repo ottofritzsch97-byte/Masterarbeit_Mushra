@@ -27,7 +27,7 @@ pages:
       content: Wenn Sie alle Bewertungen vergeben haben, klicken Sie auf „Absenden“, um den Test zu beenden. Vielen Dank für Ihre Teilnahme!
 
     - type: mushra
-      id: trial1
+      id: Akkordwechsel
       name: Akkordwechsel
       content: Bitte hören Sie sich alle Versionen sorgfältig an und bewerten Sie jede auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch).
       showWaveform: true
@@ -42,7 +42,7 @@ pages:
           Revv-Amp: configs/resources/audio/Akkordwechsel - 0007 - Audio - Revv.wav
 
     - type: mushra
-      id: trial1
+      id: Arpeggio
       name: Arpeggio
       content: Bitte hören Sie sich alle Versionen sorgfältig an und bewerten Sie jede auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch).
       showWaveform: true
@@ -57,7 +57,7 @@ pages:
           Revv-Amp: configs/resources/audio/Arpeggio - 0007 - Audio - Revv.wav
 
     - type: mushra
-      id: trial1
+      id: Solo
       name: Solo
       content: Bitte hören Sie sich alle Versionen sorgfältig an und bewerten Sie jede auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch).
       showWaveform: true
@@ -72,7 +72,7 @@ pages:
           Revv-Amp: configs/resources/audio/Solo - 0007 - Audio - Revv.wav
 
     - type: mushra
-      id: trial1
+      id: Ausgehaltener Akkord
       name: Ausgehaltener Akkord
       content: Bitte hören Sie sich alle Versionen sorgfältig an und bewerten Sie jede auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch).
       showWaveform: true
@@ -87,7 +87,7 @@ pages:
           Revv-Amp: configs/resources/audio/Ausgehaltener Akkord - 0007 - Audio - Revv.wav
 
     - type: mushra
-      id: trial1
+      id: Riff
       name: Riff
       content: Bitte hören Sie sich alle Versionen sorgfältig an und bewerten Sie jede auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch).
       showWaveform: true
