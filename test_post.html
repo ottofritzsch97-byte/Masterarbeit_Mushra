@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>WebMUSHRA Test POST</title>
+</head>
+<body>
+  <h1>Test POST an Server</h1>
+  <button id="sendTest">Sende Testdaten</button>
+
+  <pre id="output"></pre>
+
+  <script>
+    document.getElementById("sendTest").addEventListener("click", () => {
+      const output = document.getElementById("output");
+      const testData = { test: "ok", timestamp: Date.now() };
+      
+      fetch("https://217.154.167.150/save_results.php", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: "sessionJSON=" + encodeURIComponent(JSON.stringify(testData))
+      })
+      .then(response => response.json())
+      .then(data => output.textContent = JSON.stringify(data, null, 2))
+      .catch(err => output.textContent = "Fehler: " + err);
+    });
+  </script>
+</body>
+</html>
