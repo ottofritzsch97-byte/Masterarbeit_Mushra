@@ -24,7 +24,7 @@ pages:
     - type: generic
       id: first_page
       name: Einführung
-      content: Wenn Sie alle Bewertungen vergeben haben, klicken Sie auf „Absenden“, um den Test zu beenden. Vielen Dank für Ihre Teilnahme!
+      content: Wenn Sie alle Bewertungen vergeben haben, klicken Sie auf „Send Results“, um den Test zu beenden. Das kann einen kurzen Moment dauern! Warte kurz, nach erfolgreicher Übertragung werden dir deine Ergebnisse angezeigt.
 
     - type: mushra
       id: Akkordwechsel
