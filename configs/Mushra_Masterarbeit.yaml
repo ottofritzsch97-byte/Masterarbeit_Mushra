@@ -19,7 +19,7 @@ pages:
     - type: generic
       id: first_page
       name: Einführung
-      content: Hören Sie zuerst die Referenz und vergleichen Sie dann alle anderen Versionen auf Ähnlichkeit zur Referenz. Bewerten Sie jede Version auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch). Die Signale sind alle Mono-Audio, weshalb sie nur einseitig wiedergegeben werden.
+      content: Hören Sie zuerst die Referenz und vergleichen Sie dann alle anderen Versionen auf Ähnlichkeit zur Referenz. Bewerten Sie jede Version auf einer Skala von 0 (sehr unterschiedlich) bis 100 (identisch).
 
     - type: generic
       id: first_page
